@@ -59,6 +59,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"0");
                 equation += "0";
             }
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"1");
                 equation += "1";
             }
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"2");
                 equation += "2";
             }
@@ -89,6 +92,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"3");
                 equation += "3";
             }
@@ -99,6 +103,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"4");
                 equation += "4";
             }
@@ -109,6 +114,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"5");
                 equation += "5";
             }
@@ -120,6 +126,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"6");
                 equation += "6";
             }
@@ -130,6 +137,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"7");
                 equation += "7";
             }
@@ -140,6 +148,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+"8");
                 equation += "8";
             }
@@ -160,6 +169,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+" + ");
                 equation += " + ";
 
@@ -171,6 +181,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+" - ");
                 equation += " - ";
             }
@@ -181,6 +192,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+" * ");
                 equation += " * ";
             }
@@ -191,6 +203,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+" / ");
                 equation += " / ";
             }
@@ -201,6 +214,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText(textEditor.getText()+".");
                 equation += ".";
             }
@@ -211,6 +225,7 @@ public class MainActivity extends AppCompatActivity
             public void onClick(View v) {
                 resetCalculator();
                 equalPressedLast = false;
+                negative = true;
                 textEditor.setText("");
                 equation = "";
             }
