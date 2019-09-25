@@ -12,7 +12,7 @@ import org.dyndns.kwitte.jfunction.*;
 public class MainActivity extends AppCompatActivity
 {
 
-    String equation = "";
+    String equation = "0";
 
     Button button0, button1, button2, button3, button4, button5, button6, button7,
             button8, button9, buttonAddition, buttonSubtraction, buttonMultiplication, buttonDivision,
@@ -242,7 +242,7 @@ public class MainActivity extends AppCompatActivity
                     e.printStackTrace();
                 }
                 textEditor.setText(Double.toString(answer));
-                    equation = "";
+                    equation = "0";
                     equalPressedLast = true;
                     negative = true;
                 }
@@ -286,7 +286,7 @@ public class MainActivity extends AppCompatActivity
         if(equalPressedLast == true) {
             textEditor.setText("");
             negative = true;
-            equation = "";
+            equation = "0";
         }
     }
 
